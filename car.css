@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background-color: #ecf0f3;
+    text-align: center;
+}
+
+.box-div{
+    position: relative;
+    left: 30px;
+    width: 1230px;
+    height: 600px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+#raceInfoContainer{
+    position: relative;
+    left: 30px;
+    width: 550px;
+    height: 300px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+    margin: 40px auto 0;
+}
+
+#racetrack{
+    background: url('img/road.jpg') center left repeat-x;
+    height: 330px;
+    box-sizing: border-box;
+    border-right: dashed 10px white;
+    margin: 40px 0;
+}
+
+.car{
+    display: block;
+    position: relative;
+}
+
+#car1{
+    top:30px
+}
+
+#car2{
+    top: 100px;
+}
+
+#raceInfoContainer h2{
+    color: #555;
+    text-transform: uppercase;
+    border-bottom: solid 1px #555;;
+    padding: 5px 0;
+}
+
+.raceInfo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+    width: 50%;
+    float: left;
+}
+
+.raceInfo span{
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    color: #555;
+}
+
+#raceInfo1{
+    color: #77b82f;
+}
+
+#raceInfo2{
+    color: #b82f3e;
+}
+
+input[type="button"]{
+    padding: 20px 55px;
+    margin: 0 30px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-size: 18px;
+    background: #77b82f;
+    appearance: none;
+    color: #ececec;
+    text-align: center;
+   
+}
+
+input#reset{
+    background: #b82f3e;
+    color: white;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}

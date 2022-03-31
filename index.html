@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="car.css">
+</head>
+<body>
+    <div class="box-div">
+        <h1>jQuery Car Race 2.0</h1>
+
+    <input type="button" value="Race" id="go">
+    <input type="button" value="Reset" id="reset">
+
+    <div id="racetrack">
+        <img src="img/car1.png" id="car1" class="car">
+        <img src="img/car2.png" id="car2" class="car">
+    </div>
+    </div>
+
+    <div id="raceInfoContainer" class="clearfix">
+        <h2>Results</h2>
+        <div id="raceInfo1" class="raceInfo">Car 1 <span></span></div>
+        <div id="raceInfo2" class="raceInfo">Car 2 <span></span></div>
+    </div>
+
+
+
+
+    <!--load the cdn first-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <!--using cdn-->
+    <!--If cdn fails to load, serve up the local version-->
+    <script>window.jQuery || document.write('<script src="js/jquery-3.6.0.js"><\/script');</script> <!--using local-->
+    <script src="car.js"></script> 
+</body>
+</html>
